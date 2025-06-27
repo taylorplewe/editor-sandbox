@@ -1,5 +1,8 @@
-var term = new Terminal({
-  disableStdin: false,
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var xterm_1 = require("@xterm/xterm");
+var term = new xterm_1.Terminal({
+    disableStdin: false,
 });
-term.open(document.getElementById('terminal'));
-term.write('Hello from \x1B[1;3;31mxterm.js\x1B[0m $ ');
+term.open(document.querySelector("#terminal"));
+term.write("Nooooo dont turn 25 ur so beautifullll");
